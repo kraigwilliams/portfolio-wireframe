@@ -9,8 +9,10 @@
 
 }
 
-.about-me {
-    background: lightsteelblue;
+#about-me {
+    background: lightsalmon;
+    height:300px;
+    
 }
 
 #project1 {
@@ -95,6 +97,7 @@ section {
 footer{
     position:fixed;
     bottom:0px;
+    background:lightgreen;
           
         }
 
