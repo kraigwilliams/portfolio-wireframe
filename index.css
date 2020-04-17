@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    color:blue;
+    
     width:100%;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
@@ -8,21 +8,26 @@
 
 
 }
-
+main{
+    height:100%;
+}
+h2{
+    margin:0px;
+}
 #about-me {
-    background: lightsalmon;
+    background:lightgray;
     height:300px;
     
 }
 
 #project1 {
     height:400px;
-    background: lightpink;
+    background: lightgray
 }
 
 #project2 {
    height: 400px;
-    background: lightseagreen;
+    background: gray;
 }
 
 #toggle {
@@ -50,10 +55,14 @@ p {
 
 
 }
+#other{
+    height:135px;
+}
 
 header {
+    
     width: 100%;
-    background-color: lightgoldenrodyellow;
+    background-color: lightgray;
     font-family: 'Audiowide', cursive;
     width: 100%;
     font-weight: 15px;
@@ -87,7 +96,7 @@ section {
     margin: 0px;
     width: 100%;
     min-height: 200px;
-    border: 3px solid black;
+    
 }
 
 .projects{
@@ -97,7 +106,7 @@ section {
 footer{
     position:fixed;
     bottom:0px;
-    background:lightgreen;
+    background:#d1cfce;
           
         }
 
